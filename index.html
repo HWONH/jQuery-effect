@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery - 효과 메서드</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h3>show() / hide() 효과 메서드 - css에서 display: block; / display: none;</h3>
+    <div class="show_hide">
+        <div class="btn">
+            <button class="show">이미지 보여주기</button>
+            <button class="hide">이미지 감추기</button>
+        </div>
+        <div class="display_img">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, accusantium sunt, beatae dolorum, ad cum illo aliquam molestias exercitationem maiores dolore excepturi unde accusamus earum quasi totam cumque quidem! Velit.
+        </div>
+    </div>
+
+    <h3>fadeIn() / fadeOut() 효과 메서드 : 서서히 보여준다 / 서서히 감춘다 - css에서 opacity: ;</h3>
+    <div class="fade_method">
+        <div class="btn">
+            <button class="fadeIn">서서히 보여주기</button>
+            <button class="fadeOut">서서히 감추기</button>
+        </div>
+        <div class="fade_img"></div>
+    </div>
+
+    <h3>slideDown() / slideUp() 효과 메서드 : 펼치면서 보여준다 / 감으면서 감춘다(위아래 방향만 가능!)</h3>
+    <div class="slide_method">
+        <div class="btn">
+            <button class="slideDown">펼치면서 보여주기</button>
+            <button class="slideUp">감으면서 감추기</button>
+        </div>
+        <div class="slide_img"></div>
+    </div>
+    
+    <div class="fs_box">
+        <div class="origin">
+            <p>Family Site</p>
+        </div>
+        <ul>
+            <li><a href="">한화 에너지</a></li>
+            <li><a href="">한화 건설</a></li>
+            <li><a href="">한화 메거진</a></li>
+        </ul>
+    </div>
+
+    <h3>animate() 효과 메서드 : 명령에 의한 요소를 움직일 때 사용</h3>
+    <h4>animate({스타일 적용}, 애니메이션의 작동시간, 속도변화, 콜백함수)</h4>
+    <div class="ani_01">
+        <div>
+            <button class="go_right">오른쪽으로 이동시키기</button>
+            <button class="go_left">왼쪽으로 이동시키기</button>
+            <div class="ani_img"></div>
+        </div>
+    </div>
+</body>
+</html>
