@@ -24,3 +24,46 @@ a{text-decoration: none;}
 .fs_box ul li a{display: block;padding: 0 10px;line-height: 36px;background: #474747;color: #ffffff;}
 
 .ani_01 .ani_img{width: 240px;height: 240px;background-image: url(../img/img_01.jpg);background-size: cover;background-position: 50%;}
+/* ---------------------------------------------------- */
+.slider_01{width: 100%;height: 340px;padding: 20px 0;background: #aaaaaa;overflow: hidden;}
+.slider_01 ul{width: 400%;height: 300px;background: #aaffff;}
+.slider_01 ul li{position: relative;float: left;width: 25%;height: 300px;background: #ffaaff;background-size: cover;background-position: 50%;}
+.slider_01 ul .slide_01{background-image: url(../img/img_01.jpg);}
+.slider_01 ul .slide_02{background-image: url(../img/img_02.jpg);}
+.slider_01 ul .slide_03{background-image: url(../img/img_03.jpg);}
+.slider_01 ul .slide_04{background-image: url(../img/img_04.jpg);}
+.slider_01 ul li p{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 100px;font-weight: bold;color: #ffffff;text-shadow: 0 0 10px #000;}
+/* ---------------------------------------------------- */
+.slider_02{width: 400px;height: 340px;padding: 20px 0;margin-left: 200px;background: #aaaaaa;}
+.slider_02 ul{width: 400%;height: 300px;margin-left: -100%;background: #aaffff;}
+.slider_02 ul li{position: relative;float: left;width: 25%;height: 300px;background: #ffaaff;background-size: cover;background-position: 50%;}
+.slider_02 ul .slide_01{background-image: url(../img/img_01.jpg);}
+.slider_02 ul .slide_02{background-image: url(../img/img_02.jpg);}
+.slider_02 ul .slide_03{background-image: url(../img/img_03.jpg);}
+.slider_02 ul .slide_04{background-image: url(../img/img_04.jpg);}
+/*  
+nth-child를 사용하게 되면, 순서가 교체되기 때문에 정상적인 이미지 슬라이드 구성이 안됨
+.slider_02 ul li:nth-child(1){background-image: url(../img/img_01.jpg);}
+.slider_02 ul li:nth-child(2){background-image: url(../img/img_02.jpg);}
+.slider_02 ul li:nth-child(3){background-image: url(../img/img_03.jpg);}
+.slider_02 ul li:nth-child(4){background-image: url(../img/img_04.jpg);}
+ */
+.slider_02 ul li p{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 100px;font-weight: bold;color: #ffffff;text-shadow: 0 0 10px #000;}
+/* ---------------------------------------------------- */
+.slider_03{width: 440px;height: 300px;padding: 0 20px;margin: 0 200px;background: #aaaaaa;overflow: hidden;}
+.slider_03 ul{height: 400%;background: #aaffff;}
+.slider_03 ul li{position: relative;width: 400px;height: 25%;background: #ffaaff;background-size: cover;background-position: 50%;}
+.slider_03 ul .slide_01{background-image: url(../img/img_01.jpg);}
+.slider_03 ul .slide_02{background-image: url(../img/img_02.jpg);}
+.slider_03 ul .slide_03{background-image: url(../img/img_03.jpg);}
+.slider_03 ul .slide_04{background-image: url(../img/img_04.jpg);}
+.slider_03 ul li p{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 100px;font-weight: bold;color: #ffffff;text-shadow: 0 0 10px #000;}
+/* ---------------------------------------------------- */
+.slider_04{width: 440px;height: 300px;padding: 0 20px;margin: 0 200px;background: #aaaaaa;overflow: hidden;}
+.slider_04 ul{width: 400px;height: 1200px;margin-top: -300px;background: #aaffff;}
+.slider_04 ul li{position: relative;width: 400px;height: 300px;background: #ffaaff;background-size: cover;background-position: 50%;}
+.slider_04 ul .slide_01{background-image: url(../img/img_01.jpg);}
+.slider_04 ul .slide_02{background-image: url(../img/img_02.jpg);}
+.slider_04 ul .slide_03{background-image: url(../img/img_03.jpg);}
+.slider_04 ul .slide_04{background-image: url(../img/img_04.jpg);}
+.slider_04 ul li p{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 100px;font-weight: bold;color: #ffffff;text-shadow: 0 0 10px #000;}
